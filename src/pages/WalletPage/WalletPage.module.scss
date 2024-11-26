@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balanceLabel {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.balance {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.balanceChange {
+  font-size: 14px;
+  color: #d9534f;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.actionButton {
+  flex: 1;
+  margin: 0 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.actionButton:hover {
+  background-color: #444;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tab {
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.activeTab {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.assetList {
+  margin-top: 10px;
+}
+
+.assetContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.assetDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.assetName {
+  font-size: 16px;
+}
+
+.assetChange {
+  font-size: 14px;
+}
+
+.assetValue {
+  font-size: 16px;
+  font-weight: bold;
+}
